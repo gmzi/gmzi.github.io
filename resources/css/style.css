@@ -10,8 +10,6 @@
 
 html,
 body {
-    /* background-color: #555;
-    color: #00b894; */
     font-family: 'Roboto', 'Arial', sans-serif;
     font-weight: 300;
     font-size: 20px; /*we put this in pixels so it's a reference for all the other relative elements, we change this size in pixels and all the rest (in percentage) will change */
@@ -121,10 +119,7 @@ header {
     float: left;
     width: 100%; 
     background-color: rgba(36, 37, 83, 0.918);
-    /* box-shadow: 0 2px 2px gray; */
-    z-index: 9999; /* the stack of navigation, this value is the top
-    /* background-color: rgba(255, 255, 255, 0.164);
-    box-shadow: 0 2px 2px rgb(248, 232, 232); */
+    z-index: 9999; /* the stack of navigation, this value is the top */
 }
 
 .sticky .logo {
@@ -195,11 +190,8 @@ margin-top: -5px (negative margin, sustracts space). */
 /*  HEADINGS  */
 
 h1 {
-    /* margin-top: 180px; */
-    /* margin-bottom: 20px; */
     font-size: 320%;
     font-weight: 700;
-    /* text-align: right; */
 }
 
 .first-line {
