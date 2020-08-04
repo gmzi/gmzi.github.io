@@ -26,9 +26,9 @@ $(document).ready(function() {
         $('html, body').animate({scrollTop: $('.js--section-cats').offset().top}, 1000);
     });
 
-    $('.js--scroll-to-features').click(function () {
-        $('html, body').animate({scrollTop: $('.js--section-features').offset().top}, 1000);
-    });
+    // $('.js--scroll-to-features').click(function () {
+    //     $('html, body').animate({scrollTop: $('.js--section-features').offset().top}, 1000);
+    // });
 
     $('.more-cats-goto').click(function () {
         $('html, body').animate({scrollTop: $('.js--section-cats').offset().top}, 1000);
@@ -50,7 +50,6 @@ $(document).ready(function() {
           frameImgDogs
         .innerHTML = `<img src=${data.url} class="dog-img"></img>`;
         }
-        console.log(data);
       });
       });
 
