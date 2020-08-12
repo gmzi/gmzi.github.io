@@ -79,6 +79,11 @@ $(document).ready(function () {
       );
       const data = await dataFecth.json();
       frameImgCats.innerHTML = `<img src=${data[0].url} class="cat-img"></img>`;
+
+      $("html, body").animate(
+        { scrollTop: $(".js--section-cats").offset().top },
+        1000
+      );
     }
     getCats();
   });
